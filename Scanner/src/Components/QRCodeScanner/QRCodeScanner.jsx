@@ -10,7 +10,7 @@ const QRCodeScanner = () => {
         <h1 className="text-lg font-medium">QR Code Scanner</h1>
 
           <p  className='mt-10 h-10 mb-10 font-bold text-xl'>Scanned Result: 
-            <span className='font-medium ml-2'>{scannData}</span></p>
+           <a href={scannData}><span className='font-medium ml-2'>{scannData}</span> </a>  </p>
 
         <div className="w-[100%] h-[65%] bg-gray-200 rounded-lg mt-10">
 
